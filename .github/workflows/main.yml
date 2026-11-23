@@ -1,5 +1,5 @@
 
-name: Build NotMistFall: Conquest
+name: "Build NotMistFall: Conquest"
 
 on:
   push:

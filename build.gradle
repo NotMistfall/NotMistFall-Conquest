@@ -50,3 +50,6 @@ tasks.register('coreTests', JavaExec) {
 tasks.named('check') {
     dependsOn 'coreTests'
 }
+test {
+    failOnNoDiscoveredTests = false
+}
